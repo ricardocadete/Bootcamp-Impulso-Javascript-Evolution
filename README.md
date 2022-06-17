@@ -1,2 +1,2 @@
-# Repositório do desafio GIT/Github
-Desafio de projeto sobre GIT/Github da DIO
+# Repositório Bootcamp Impulso Javascript Evolution
+Repositório para os desafios do bootcamp da DIO
