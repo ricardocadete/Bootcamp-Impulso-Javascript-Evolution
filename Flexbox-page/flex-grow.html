@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Flex Grow</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="">
+	<link rel="icon" type="image/x-icon" href=""/>
+    
+    <style>
+        .container {
+            display: flex;
+            border: 1px solid;
+            max-width: 300px;
+        }
+        
+        .item {
+            background: green;
+            color: white;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .fg-0 {
+            flex-grow: 0;
+        }
+        
+        .fg-1 {
+            flex-grow: 1;
+        }
+        
+        .fg-2 {
+            flex-grow: 2;
+        }
+        
+        .fg-3 {
+            flex-grow: 3;
+        }
+    </style>
+    
+</head>
+
+<body>
+	
+    <p>Flex Grow 0</p>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+    </div>
+    
+    <p>Flex Grow 1</p>
+    <div class="container fg-1">
+        <div class="item fg-1">A</div>
+        <div class="item fg-1">B</div>
+        <div class="item fg-1">C</div>
+        <div class="item fg-1">D</div>
+    </div>
+    
+    <p>Flex Grow 2</p>
+    <div class="container fg-0">
+        <div class="item fg-2">A</div>
+        <div class="item fg-2">B</div>
+        <div class="item fg-2">C</div>
+        <div class="item fg-2">D</div>
+    </div>
+    
+    <p>Flex Grow Alternado</p>
+    <div class="container fg-0">
+        <div class="item fg-1">A</div>
+        <div class="item fg-3">B</div>
+        <div class="item fg-1">C</div>
+        <div class="item fg-2">D</div>
+    </div>
+    
+	<script type="text/javascript" src=""></script>
+</body>
+
+</html>
